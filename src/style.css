@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*, html, body{
+    margin:0;
+    padding:0;
+    font-family:'Ubuntu',sans-serif;
+    max-width:100%;
+}
+
+header{
+    /* border:1px solid; */
+    padding:10px;
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    background-color:#2d9454;
+}
+.dashboard{
+    font-size:26px;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+.intro{
+    /* border:1px solid; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    margin-top:10px;
+}
+.title{
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.desc{
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.main{
+    /* border:1px solid; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+}
+.row{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+}
+.col{
+    display:flex;
+    /* flex-direction:column; */
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    gap:50px;
+}
+.card{
+    width:400px;
+    height:auto;
+    border:1px solid;
+    border-radius:10px;
+    box-shadow:2px 2px 3px 2px;
+}
+.card-header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    gap:10px;
+}
+.card-title{
+    font-size:18px;
+    font-weight:bold;
+}
+.card-body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.control{
+    /* border:1px solid; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+}
+.btn-power{
+    width:150px;
+    height:50px;
+    border-radius:10px;
+    background-color:#d40012;
+    margin:10px;
+}
+.btn-power:hover{
+    background-color:#2d9454;
+    color:#ffffff;
+}
